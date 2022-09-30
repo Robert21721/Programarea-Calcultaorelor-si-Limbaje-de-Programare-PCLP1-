@@ -1,0 +1,61 @@
+
+Run cpplint
+
+Task1.c:1:  Include the directory when naming header files  [build/include_subdir] [4]
+Task1.c:52:  Using C-style cast.  Use static_cast<int>(...) instead  [readability/casting] [4]
+Task1.c:62:  Almost always, snprintf is better than strcpy  [runtime/printf] [4]
+Task1.c:88:  Almost always, snprintf is better than strcpy  [runtime/printf] [4]
+Task1.c:95:  Almost always, snprintf is better than strcpy  [runtime/printf] [4]
+Task1.c:135:  Consider using strtok_r(...) instead of strtok(...) for improved thread safety.  [runtime/threadsafe_fn] [2]
+Task1.c:138:  Almost always, snprintf is better than strcpy  [runtime/printf] [4]
+Task1.c:139:  Consider using strtok_r(...) instead of strtok(...) for improved thread safety.  [runtime/threadsafe_fn] [2]
+Task1.c:147:  Almost always, snprintf is better than strcpy  [runtime/printf] [4]
+Task1.c:151:  Almost always, snprintf is better than strcpy  [runtime/printf] [4]
+Task1.c:155:  Almost always, snprintf is better than strcpy  [runtime/printf] [4]
+Task2.c:1:  Include the directory when naming header files  [build/include_subdir] [4]
+Task2.c:9:  Using C-style cast.  Use static_cast<char>(...) instead  [readability/casting] [4]
+Task2.c:27:  Using C-style cast.  Use static_cast<int>(...) instead  [readability/casting] [4]
+Task2.c:37:  Using C-style cast.  Use static_cast<int>(...) instead  [readability/casting] [4]
+Task2.c:38:  Using C-style cast.  Use static_cast<int>(...) instead  [readability/casting] [4]
+Task2.c:65:  Almost always, snprintf is better than strcpy  [runtime/printf] [4]
+Task2.c:66:  Almost always, snprintf is better than strcpy  [runtime/printf] [4]
+Task2.c:67:  Almost always, snprintf is better than strcpy  [runtime/printf] [4]
+Task2.c:70:  Using C-style cast.  Use static_cast<int>(...) instead  [readability/casting] [4]
+Task2.c:71:  Using C-style cast.  Use static_cast<int>(...) instead  [readability/casting] [4]
+Task2.c:78:  Almost always, snprintf is better than strcat  [runtime/printf] [4]
+Task2.c:79:  Almost always, snprintf is better than strcpy  [runtime/printf] [4]
+Task2.c:93:  Using C-style cast.  Use static_cast<char>(...) instead  [readability/casting] [4]
+Task2.c:96:  Using C-style cast.  Use static_cast<char>(...) instead  [readability/casting] [4]
+Task2.c:105:  Almost always, snprintf is better than strcat  [runtime/printf] [4]
+Task2.c:106:  Almost always, snprintf is better than strcpy  [runtime/printf] [4]
+Task2.c:149:  Almost always, snprintf is better than strcpy  [runtime/printf] [4]
+Task2.c:150:  Almost always, snprintf is better than strcpy  [runtime/printf] [4]
+Task2.c:154:  Almost always, snprintf is better than strcpy  [runtime/printf] [4]
+Task2.c:158:  Almost always, snprintf is better than strcpy  [runtime/printf] [4]
+Task3.c:1:  Include the directory when naming header files  [build/include_subdir] [4]
+Task3.c:22:  Using C-style cast.  Use static_cast<char>(...) instead  [readability/casting] [4]
+Task3.c:38:  Almost always, snprintf is better than strcat  [runtime/printf] [4]
+Task3.c:43:  Consider using strtok_r(...) instead of strtok(...) for improved thread safety.  [runtime/threadsafe_fn] [2]
+Task3.c:47:  Almost always, snprintf is better than strcpy  [runtime/printf] [4]
+Task3.c:48:  Consider using strtok_r(...) instead of strtok(...) for improved thread safety.  [runtime/threadsafe_fn] [2]
+Task3.c:53:  Almost always, snprintf is better than strcpy  [runtime/printf] [4]
+Task3.c:55:  Almost always, snprintf is better than strcat  [runtime/printf] [4]
+Task3.c:69:  Almost always, snprintf is better than strcpy  [runtime/printf] [4]
+Task3.c:79:  Almost always, snprintf is better than strcat  [runtime/printf] [4]
+Task3.c:80:  Almost always, snprintf is better than strcat  [runtime/printf] [4]
+tema2.c:1:  Include the directory when naming header files  [build/include_subdir] [4]
+tema2.c:4:  { should almost always be at the end of the previous line  [whitespace/braces] [4]
+Done processing Task1.c
+Done processing Task2.c
+Done processing Task3.c
+Done processing tema2.c
+Total errors found: 44
+
+Run clang-tidy-12
+
+17 warnings generated.
+31 warnings generated.
+45 warnings generated.
+59 warnings generated.
+Suppressed 59 warnings (56 in non-user code, 3 with check filters).
+Use -header-filter=.* to display errors from all non-system headers. Use -system-headers to display errors from system headers as well.
